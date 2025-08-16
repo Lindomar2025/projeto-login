@@ -35,11 +35,12 @@ section#Login {
     transform: translate(-50%, 16%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438) ;
-}
-
-section#Login > div#imagem {
+    transition-timing-function: ease ;
+}  
+    
+    section#Login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-athena-2985875.jpg);
+    background: #5f2c82 url(../imagens/pexels-athena-29858751.jpg);
     height: 200px;
     background-size: cover;
     background-position: left top;
