@@ -31,10 +31,11 @@ section#Login {
     position: absolute;
     top: 50px;
     left: 50%;
-    transform: translate(-50%, 16%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438) ;
     transition-timing-function: ease ;
+    transform: translate(-50%, 16%);
+    
 }  
     
 section#Login > div#imagem {
@@ -59,10 +60,14 @@ Div#formulario > h1 {
 Div#formulario > p {
      font-size: 1em; 
      margin:  10px;
+     
 }
 
 Div#formulario > form {
     margin:  30px;
+    font-weight: bold;
+        
+
 }
 
 form input[type=submit] {
@@ -80,9 +85,10 @@ form input[type=submit] {
     border-style: solid;
     border: none;
     padding: 5px;
-     border-color: black;
+    border-color: black;
     border-style: solid;
-
+    
+    
     
 }
 
@@ -101,7 +107,7 @@ form input[type=submit] {
     border-color: black;
     border-style: solid;
     padding: 5px;
-  
+    
 }
 
 form  input[type=submit]:hover {
@@ -113,4 +119,21 @@ a:hover {
 
     background-color:#57c0bd ;
      color: rgb(242, 243, 245);
+}
+div.campo > input {
+
+    border-radius: 5px;
+    width: 80%;
+    height: 25px;
+    background-color: rgba(186, 189, 236, 0.404);
+    padding: 10px;   
+}
+
+div.senha > input {
+
+    border-radius: 5px;
+    width: 80%;
+    height: 25px;
+    background-color: rgba(186, 189, 236, 0.404);
+    padding: 10px;   
 }
