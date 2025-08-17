@@ -80,6 +80,8 @@ form input[type=submit] {
     border-style: solid;
     border: none;
     padding: 5px;
+     border-color: black;
+    border-style: solid;
 
     
 }
@@ -87,9 +89,9 @@ form input[type=submit] {
 .botao {
 
     display: block;   
-    color: white;
+    color: rgb(59, 134, 248);
     margin: auto;
-    background-color: #49a09d;
+    background-color: #f3f8f8;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
@@ -98,7 +100,6 @@ form input[type=submit] {
     height: 10%;
     border-color: black;
     border-style: solid;
-    border: none;
     padding: 5px;
   
 }
@@ -111,4 +112,5 @@ form  input[type=submit]:hover {
 a:hover {
 
     background-color:#57c0bd ;
+     color: rgb(242, 243, 245);
 }
