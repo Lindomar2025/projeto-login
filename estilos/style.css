@@ -24,7 +24,7 @@ main {
 
 section#Login {
 
-    background-color: white ;
+    background-color: rgb(215, 235, 243) ;
     width: 350px;
     height: 600px;
     border-radius: 20px;
@@ -41,7 +41,7 @@ section#Login {
 section#Login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-athena-29858751.jpg);
-    height: 200px;
+    height: 230px;
     background-size: cover;
     background-position: left top;
 
@@ -54,7 +54,6 @@ section#Login > div#formulario {
 
 Div#formulario > h1 {
     text-align: center;
-    margin-bottom:  20px;
 }
 
 Div#formulario > p {
@@ -64,7 +63,7 @@ Div#formulario > p {
 }
 
 Div#formulario > form {
-    margin:  30px;
+    margin:  5px;
     font-weight: bold;
         
 
@@ -84,7 +83,7 @@ form input[type=submit] {
     border-color: black;
     border-style: solid;
     border: none;
-    padding: 5px;
+    padding: 1px;
     border-color: black;
     border-style: solid;
     
