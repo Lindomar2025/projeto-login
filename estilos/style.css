@@ -14,6 +14,7 @@ body, html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 main {
@@ -39,7 +40,10 @@ section#Login {
 }  
     
 section#Login > div#imagem {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items:  center;
     background: #5f2c82 url(../imagens/pexels-athena-29858751.jpg);
     height: 230px;
     background-size: cover;
