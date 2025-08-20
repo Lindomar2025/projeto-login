@@ -67,7 +67,7 @@ Div#formulario > p {
 }
 
 Div#formulario > form {
-    margin:  5px;
+    margin: 5px;
     font-weight: bold;
         
 
@@ -89,14 +89,10 @@ form input[type=submit] {
     border: none;
     padding: 1px;
     border-color: black;
-    border-style: solid;
-    
-    
-    
+    border-style: solid; 
 }
 
 .botao {
-
     display: block;   
     color: rgb(59, 134, 248);
     margin: auto;
@@ -110,7 +106,6 @@ form input[type=submit] {
     border-color: black;
     border-style: solid;
     padding: 5px;
-    
 }
 
 form  input[type=submit]:hover {
@@ -133,7 +128,6 @@ div.campo > input {
 }
 
 div.senha > input {
-
     border-radius: 5px;
     width: 80%;
     height: 25px;
